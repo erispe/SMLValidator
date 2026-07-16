@@ -1,0 +1,26 @@
+# Build output — regenerated from Source/ by UBT
+Binaries/
+Intermediate/
+Saved/
+DerivedDataCache/
+
+# IDE / editor
+.vs/
+.vscode/
+.idea/
+*.VC.db
+*.opensdf
+*.sdf
+*.sln
+*.suo
+
+# Compiled artifacts
+*.o
+*.obj
+*.so
+*.dylib
+*.dll
+*.lib
+*.a
+*.pdb
+*.exp

@@ -1,0 +1,21 @@
+{
+	"FileVersion": 3,
+	"Version": 1,
+	"VersionName": "1.0.0",
+	"FriendlyName": "Mod Validation",
+	"Description": "Editor-time validation for Satisfactory mods. Catches config that crashes the shipped game: required function-call input pins left unconnected (e.g. SetPowerInfo's powerInfo), and class-valued properties that are unset, dangling, or the wrong type (e.g. a buildable's mHologramClass, a descriptor's mBuildableClass/mVehicleClass). Fails validation before packaging.",
+	"Category": "Modding",
+	"CreatedBy": "erispe",
+	"CanContainContent": false,
+	"IsBetaVersion": false,
+	"IsExperimentalVersion": false,
+	"Installed": false,
+	"EnabledByDefault": true,
+	"Modules": [
+		{
+			"Name": "ModValidation",
+			"Type": "Editor",
+			"LoadingPhase": "Default"
+		}
+	]
+}
